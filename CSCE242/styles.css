@@ -1,0 +1,48 @@
+/* Color pallette: #E2E3DD #31312F #E5E1D8 #C5C5B9 #A09F8D*/
+/*Structure*/
+body {
+    color-scheme: light;
+    background-color: #E2E3DD;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#content{
+    background: #A09F8D;
+    padding: 5px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+/*Navigation*/
+#assignment_list a {
+    text-decoration: none;
+    background: #E5E1D8;
+    color: #31312F;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+#assignment_list a:hover {
+    background-color: #31312F;
+    color: #E5E1D8;
+}
+#assignment_list li {
+    list-style-type: none;
+}
+#assignment_list ul {
+    padding-left:  0px;
+    padding-bottom: 2px;
+    width: fit-content;
+    margin: auto;
+}
+/*Typography*/
+h1 {
+    color: #31312F;
+}
+h2{
+    color: #31312F;
+}
+p{
+    color: #31312F;
+}
