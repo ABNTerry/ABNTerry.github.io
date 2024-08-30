@@ -1,0 +1,91 @@
+/* Color pallette: #BDBEBF #2F403E #BF7F5A #A6654E #C3B9B8*/
+/*Structure*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(images/bg_img.jpeg);
+    background-size: auto 2000px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 250px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    
+}
+
+#main_header {
+    background: rgba(191, 127, 90, 0.5);
+    padding: 2px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#main_content {
+    background: rgba(166, 101, 78, 0.5);
+    border-radius: 5px;
+}
+
+table {
+    background: rgba(189, 190, 191, 0.5);
+    color: #2F403E;
+    padding: 5px;
+    border-radius:2px;
+    margin: 0px auto;
+}
+#table_title {
+    font-weight: bold;
+    color:#2F403E;
+}
+
+td {
+    background: rgba(166, 101, 78, 0.5);
+    border-radius: 2px;
+}
+
+/*Navigation*/
+
+#main_nav ul {
+    padding-left: 0px;
+}
+
+#main_nav li{
+    list-style: none;
+    border-bottom: 1px solid #BDBEBF;
+    display: contents;
+}
+
+#main_nav a {
+    text-decoration: none;
+    padding: 2px;
+    background: #2F403E;
+    color: #BDBEBF;
+    border-radius: 2px;
+}
+/*Typography*/
+#p1 {
+    color:#2F403E;
+    background: rgba(195, 185, 184, 0.5);
+    border-radius: 5px;
+}
+
+#p2 {
+    color:#2F403E;
+    background: rgba(195, 185, 184, 0.5);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #2F403E;
+}
+
+h2 {
+    color: #2F403E;
+}

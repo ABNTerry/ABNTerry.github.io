@@ -20,7 +20,7 @@ body {
     background: #E5E1D8;
     color: #31312F;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 2px;
 }
 #assignment_list a:hover {
@@ -29,12 +29,14 @@ body {
 }
 #assignment_list li {
     list-style-type: none;
+    margin: 20px;
 }
 #assignment_list ul {
     padding-left:  0px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     width: fit-content;
     margin: auto;
+    display: block;
 }
 /*Typography*/
 h1 {
