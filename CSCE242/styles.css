@@ -28,7 +28,7 @@ footer {
     border-radius: 10px;
     display: inline-block;
 }
-/*Navigation aka Various List*/
+/*Navigation*/
 #assignment_list a, #project_list a {
     text-decoration: none;
     background: #E5E1D8;
