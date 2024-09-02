@@ -10,12 +10,26 @@ body {
     background: #A09F8D;
     padding: 5px;
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
     text-align: center;
 }
-/*Navigation*/
-#assignment_list a {
+footer {
+    text-align: center;
+}
+#assignment_list section p img {
+    width: 300px;
+    height: 150px;
+}
+#assignment_list section {
+    background-color: #C5C5B9;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+/*Navigation aka Various List*/
+#assignment_list a, #project_list a {
     text-decoration: none;
     background: #E5E1D8;
     color: #31312F;
@@ -47,4 +61,16 @@ h2{
 }
 p{
     color: #31312F;
+}
+/*Larger Resolutions*/
+@media (min-width: 600px) {
+    #assignment_list {
+        display: inline-flex;
+        flex: 1;
+    }
+    #project_list {
+        display: inline-flex;
+        flex: 1;
+    }
+
 }
