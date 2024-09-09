@@ -31,26 +31,30 @@ footer {
 /*Navigation*/
 #assignment_list a, #project_list a {
     text-decoration: none;
-    background: #E5E1D8;
+    
     color: #31312F;
     padding: 5px;
     margin: 10px;
     border-radius: 2px;
 }
 #assignment_list a:hover {
-    background-color: #31312F;
+
     color: #E5E1D8;
 }
-#assignment_list li {
-    list-style-type: none;
-    margin: 20px;
+#project_list section p img {
+    width: 300px;
+    height: 150px;
 }
-#assignment_list ul {
-    padding-left:  0px;
-    padding-bottom: 5px;
-    width: fit-content;
-    margin: auto;
-    display: block;
+#project_list section {
+    background-color: #C5C5B9;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#project_list a:hover {
+
+    color: #E5E1D8;
 }
 /*Typography*/
 h1 {
@@ -66,11 +70,14 @@ p{
 @media (min-width: 600px) {
     #assignment_list {
         display: inline-flex;
+    }
+    #assignment_list section {
         flex: 1;
     }
     #project_list {
         display: inline-flex;
+    }
+    #project_list section {
         flex: 1;
     }
-
 }
