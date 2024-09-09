@@ -13,14 +13,14 @@
         --shadow_box: rgba(0, 0, 0, .3);
     }
 
-    #top_usc_logo img, #bottom_use_logo img {
+    #top_usc_logo img {
         width: 180px;
         height: 40px;
     }
 
     body {
         background-color: var(--color_white);
-        font-family: "Berlingske Sans", "Ariel", sans-serif;
+        font-family: "Berlingske Sans", "Arial", sans-serif;
         font-weight: 500;
         color: var(--color_dark_grey);
         border: 0px;
@@ -38,10 +38,6 @@
 
         #top_usc_logo img {
             padding: 5px 0px 5px 15px;
-        }
-
-        #top_nav_desktop, #bottom_nav_desktop {
-            display: none;
         }
 
         #nav_mobile ul {
@@ -101,8 +97,7 @@
             font-weight: 800;
             font-size: 70px;
             font-stretch: condensed;
-            text-transform: uppercase;
-            
+            text-transform: uppercase;    
         }
 
         #content_intro_one {
@@ -291,5 +286,384 @@
             border-color: var(--color_white);
         }
 
+    /*Footer*/
+
+        footer {
+            background-color: var(--color_garnet);
+            color: var(--color_white);
+            padding-top: 5%;
+            text-align: center;
+        }
+
+        /*Logo*/
+
+            #bottom_usc_logo img {
+                width: 300px;
+                margin: 0px auto 0px auto;
+                display: block;
+            }
+
+        /*Social*/
+
+            #social_links {
+                list-style-type: none;
+                display: inline-flex;
+                justify-content: center;
+                padding: 40px 0px 40px 0px;
+            }
+
+            .social_spacing {
+                padding-right: 30%;
+            }
+
+            #social_links li {
+                list-style: none;
+            }
+
+
+            #social_links a {
+                text-decoration: none;
+            }
+
+        /*Main Footer*/
+
+            #footer_main {
+                text-align: left;
+                margin: 0px .9375em 0px .9375em;
+            }
+
+            #footer_main h2 {
+                border-bottom: 1px solid;
+                border-color: var(--color_white);
+                padding-bottom: .5em;
+            }
+
+            #footer_main ul{
+                list-style-type: none;
+                margin: 0px 0px 0px 0px;
+                padding-left: 0px;
+            }
+
+            #footer_main li {
+                padding-bottom: 5px;
+                display: block;
+            }
+
+            #footer_main a {
+                text-decoration: none;
+                color: var(--color_white);
+                line-height: 1.8;
+                font-size: .85em;
+            }
+
+            #footer_main_one, #footer_main_two {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .footer_main_a, .footer_main_c, .footer_main_b {
+                flex-basis: 50%;
+            }
+
+            .footer_main_b {
+                order: 2;
+            }
+        
+        /*Sub Footer*/
+
+            #footer_sub {
+                background-color: var(--color_black);
+                padding: 3%;
+                border-top: 1px solid;
+                border-color: var(--color_white);
+            }
+
+            #footer_sub a {
+                text-decoration: none;
+                color: var(--color_white);
+                padding: 0px 2% 0px 2%;
+                font-size: .85em;
+            }
+
+            .border {
+                border-right: 1px solid;
+                border-color: var(--color_white);
+            }
+
 /*Larger Resolutions*/
 
+    @media (max-width: 960px) {
+
+        /*Desktop Nav Hide*/
+
+            #top_nav_desktop, #bottom_nav_desktop {
+                display: none;
+            }
+    }
+
+    @media (min-width: 960px) {
+
+        /*Mobile Nave Hide*/
+
+            #nav_mobile {
+                display: none;
+            }
+
+        /*Desktop Conversion*/
+
+        /*Desktop Nav*/
+
+            #top_nav_desktop, #bottom_nav_desktop {
+                color: var(--color_white);
+            }
+
+            #top_nav_desktop ul, #bottom_nav_desktop ul {
+                list-style-type: none;
+            }
+
+            #top_nav_desktop li, #bottom_nav_desktop li {
+                display: inline-block;
+            }
+
+            #top_nav_desktop a, #bottom_nav_desktop a {
+                text-decoration: none;
+                color: var(--color_white);
+            }
+
+            #top_usc_logo img, #top_nav_desktop {
+                display: inline-flex;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            #top_usc_logo img {
+                width: 310px;
+                height: 60px;
+                padding-top: 2em;
+                padding-bottom: 1.5em;
+                padding-left: .9375em;
+            }
+
+        /*Top Nav*/
+        
+            #top_nav_desktop {
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                font-size: .625rem;
+                text-transform: uppercase;
+                padding: .75em 0px;
+            }
+
+            #text_nav_desktop strong {
+                font-weight: 800;
+            }
+
+            #top_nav_desktop ul {
+                margin: 0px 0px 0px .5rem;
+                padding: 0px;
+            }
+
+            #top_nav_desktop li {
+                padding-right: 10px;
+            }
+
+            #margin_fix {
+                margin-right: 2em;
+            }
+
+            .border_fix {
+                border-right: 1px solid;
+                border-color: var(--color_white);
+                margin-right: 10px;
+            }
+
+        /*Bottom Nav*/
+
+            #bottom_nav_desktop {
+                background-color: var(--color_garnet);
+                font-weight: 800;
+                line-height: 1.4;
+                text-align: center;
+                text-transform: uppercase;
+                padding: 0px .9375em 0px .9375em
+            }
+
+            #color_fix {
+                background-color: var(--color_dark_garnet);
+            }
+
+            #bottom_nav_desktop ul {
+                display: flex;
+                font-size: 1.25em;
+                padding-left: 0;
+                justify-content: space-evenly;
+            }
+
+            #bottom_nav_desktop a {
+                padding: .5em 14px;
+                display: inline-block;
+                letter-spacing: .5px;
+                font-stretch: condensed;
+                text-wrap: nowrap;
+            }
+
+    /*Main Content*/
+
+        /*Content One*/
+
+            #content_one {
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #content_one h1 {
+                background-color: var(--color_garnet);
+                color: var(--color_white);
+                display: inline-block;
+                margin-top: -3rem;
+                margin-bottom: .5rem;
+                margin-left: -20%;
+                padding: 10px .5rem;
+            }
+
+        /*Content Two*/
+
+            #content_two {
+                display: flex;
+                padding-bottom: 0px;
+            }    
+
+            #content_two img {
+                padding: 0px;
+                height: 480px;
+                width: auto;
+            }
+
+            #content_two div {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            #content_two h2 {
+                margin-top: 4em;
+                font-size: 1.8em;
+                margin-bottom: 1em;
+                line-height: 1.2;
+            }
+
+            #content_two p {
+                margin-bottom: 10%;
+            }
+
+        /*Content Three*/
+
+            #content_three {
+                padding-bottom: 5%; 
+            }
+
+        /*Content Four??? no changes*/
+
+        /*Content Five*/
+
+            #content_five ul {
+                display: flex;
+                gap: 2em;
+            }
+
+            #content_five li {
+                flex: 1;
+                padding-bottom: 0px;
+            }
+
+        /*Content Six*/
+
+            #content_six {
+                display: flex;
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+            }
+
+            #content_six img {
+                height: 410px;
+                width: 319px;
+                top: 0px;
+                bottom: 0px;
+                margin-top: -2em;
+                padding-right: 2em;
+            }
+
+            #content_six div {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            #content_six h2 {
+                margin-top: 2em;
+                font-size: 2.5em;
+                margin-bottom: 1em;
+                line-height: 1.2;
+            }
+
+        /*Footer*/
+
+            footer {
+                padding-top: 3%;
+            }
+
+            /*Logos and links*/
+
+                #bottom_usc_logo img, #social_links {
+                    display: inline-flex;
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+                #bottom_usc_logo img {
+                    height: 60px;
+                    width: 300px;
+                    float: left;
+                    padding-left: .9375em;
+                    padding-bottom: 3%;
+                }
+                #social_links {
+                    float: right;
+                    margin-top: 2%;
+                    margin-right: 4%;
+                }
+
+            /*Main Footer*/
+
+                #footer_main {
+                    margin-top: 115px;
+                    gap: 2em;
+                    display: flex;
+                    
+                }
+
+                #footer_main div {
+                    display: inline-block;
+                    flex: 1;
+                    
+                }
+
+                .footer_main_c {
+                    order: 3;
+                }
+
+                #footer_main_one, #footer_main_two, #footer_main_three {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    
+                }
+
+            /*Sub Footer*/
+
+                #footer_sub {
+                    padding: 1%;
+                    display: block;
+                    
+                }
+
+    }
