@@ -1,0 +1,30 @@
+/*Styles testing*/
+
+/*
+    p{
+        text-align: center;
+        color: red;
+    }
+
+    #para1 {
+        text-align: center;
+        color:blueviolet;
+    }
+
+    .center {
+        text-align: center;
+        color: green;
+    }
+*/
+
+/*Baseline Styles*/
+
+    body {
+        background-color: bisque;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h1 {
+        color: grey;
+        text-align: center;
+    }
