@@ -20,3 +20,17 @@ myButton2.onclick = () => {
 myButton3.onclick = () => {
     document.getElementById("hidden").classList.add("hidden");
 };
+
+//Showing data from an inout field
+
+/*
+document.getElementById("txt_first_name").onkeyup = () => {
+    const textBox = document.getElementById("txt_first_name");
+    //console.log(textBox.value);
+    document.getElementById("result").innerHTML = textBox.value;
+};
+*/
+
+document.getElementById("txt_first_name").onkeyup = (event) => {
+    document.getElementById("result").innerHTML = event.target.value;
+};
