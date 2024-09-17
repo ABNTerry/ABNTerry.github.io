@@ -1,0 +1,188 @@
+/*Variables*/
+
+    :root {
+        --color_main: #FFF;
+        --color_secondary: #000;
+        --color_tertiary: #808080;
+        --color_quaternary: #333;
+        --color_black: #000;
+        --color_white: #FFF;
+    }
+
+    .moderustic_font {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    }
+
+/*Base Structure*/
+
+    body {
+        background-color: var(--color_main);
+        color: var(--color_secondary);
+        font-family: fantasy;
+        margin: 0px;
+        padding: 0px;
+    }
+
+/*Universal*/
+
+    /*Navigation*/
+
+        /*Title*/
+            #banner {
+                text-align: center;
+                margin-bottom: 20px;
+        }
+
+        /*Login Bar*/
+            #login {
+                margin-left: 4%;
+            }
+
+            #login p {
+                vertical-align: middle;
+                display: inline-block;
+                padding: 0px 5px 0px 0px;
+            }
+
+        /*Nav Bar*/
+            #nav_bar {
+                list-style-type: none;
+                width: 92%;
+                padding: 0px;
+                margin: 0px 0px 0px 4%;
+            }
+
+            #nav_bar li {
+                background-color: var(--color_tertiary);
+                margin-bottom: 3px;
+            }
+
+            #nav_bar a {
+                text-decoration: none;
+                display: block;
+                padding: 2px 0px 2px 5px;
+            }
+
+            .nav_other_pages a {
+                color: var(--color_black);
+            }
+
+            .nav_current_page a {
+                background-color: var(--color_secondary);
+                color: var(--color_white);
+            }
+
+    /*Footer*/
+        footer {
+            text-align: center;
+            font-size: smaller;
+        }
+
+/*Home*/
+
+    /*Information*/
+        #home_body {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .home_info {
+            background-color: var(--color_quaternary);
+            color: var(--color_white);
+            border-radius: 5px;
+            margin: 0px 4% 0px 4%;
+        }
+
+        .home_info img {
+            margin: 5px 0px 5px 0px;
+        }
+
+        .home_info p {
+            margin: 5px 5px 5px 5px;
+            padding-bottom: 5px;
+        }
+
+    /*Scrolling Image*/
+        #scroller {
+            margin-top: 20px;
+        }
+
+        #scroller img {
+            width: 92%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+/*Helpful Links*/
+
+    /*Outside Links*/
+        #h_r_body {
+            background-color: var(--color_tertiary);
+            border-radius: 5px;
+            margin: 20px 4% 0px 4%;
+
+        }
+        
+        /*Left Align*/
+            .left_align {
+                display: block;
+                text-align: left;
+                padding: 5px;
+                text-decoration: none;
+                color: var(--color_black);
+            }
+
+            .left_align p {
+                border-bottom: 1px solid;
+                border-color: var(--color_secondary);
+                padding-bottom: 5px;
+            }
+
+        /*Right Align*/
+            .right_align {
+                display: block;
+                text-align: right;
+                padding: 5px;
+                text-decoration: none;
+                color: var(--color_black);
+            }
+
+            .right_align p {
+                border-bottom: 1px solid;
+                border-color: var(--color_secondary);
+                padding-bottom: 5px;
+            }
+
+        /*Discord*/
+            #discord_server {
+                display: block;
+                text-align: left;
+                padding: 5px;
+                text-decoration: none;
+                color: var(--color_black);
+            }
+
+/*How to Play*/
+    #h_t_p_body {
+        text-align: center;
+    }
+
+    #h_t_p_body h2 {
+        background-color: var(--color_quaternary);
+        letter-spacing: 2px;
+        color: var(--color_white);
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #h_t_p_body p {
+        background-color: var(--color_tertiary);
+        width: 92%;
+        margin: 0px 0px 0px 4%;
+    }
+
+/*About Us*/
