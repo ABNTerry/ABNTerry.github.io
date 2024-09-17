@@ -17,14 +17,57 @@
     }
 */
 
-/*Baseline Styles*/
+/*Variables*/
+    :root {
+        --color_primary: bisque;
+        --color_secondary: grey;
+        --color_tertiary: maroon;
+        --color_quaternary: ivory;
+        --color_white: white;
+        --color_black: black;
+    }
 
+/*Baseline Styles*/
     body {
-        background-color: bisque;
+        background-color: var(--color_primary);
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-    h1 {
-        color: grey;
+/*Mobile format*/  
+    .center {
         text-align: center;
+    }
+
+    .title {
+        color: var(--color_tertiary);
+    }
+
+    .header {
+        background-color: var(--color_secondary);
+        display: block;
+        border-radius: 5px 5px 0px 0px;
+        margin: 0px 5% 0px 5%;
+    }
+
+    .about, .skills, .projects, .contact {
+        background-color: var(--color_quaternary);
+        display: block;
+        border-radius: 0px 0px 5px 5px;
+        margin: 0px 5% 5% 5%;
+    }
+
+    .about p, .skills p, .projects p, .contact p {
+        margin: 0px;
+    }
+    
+/*Desktop*/
+    @media (min-width: 600px) {
+        #content {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .divisions {
+            flex: 1;
+        }
     }
