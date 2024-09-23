@@ -186,3 +186,50 @@
     }
 
 /*About Us*/
+    #a_u_body {
+        position: relative;
+        left: 4%;
+
+    }
+
+    #portrait {
+        margin-top: 10px;
+        
+    }
+
+    #portrait img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #portrait p {
+        background-color: var(--color_tertiary);
+        text-align: center;
+        padding: 5px 0 5px 0;
+        width: 300px;
+        margin-top: -5px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    #desc {
+        text-align: center;
+        width: 300px;
+        font-size: smaller;
+        margin-top: -10px;
+    }
+
+    .paralink h2 {
+        background-color: var(--color_quaternary);
+        letter-spacing: 2px;
+        color: var(--color_white);
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: right;
+    }
+
+    .paralink p {
+        background-color: var(--color_tertiary);
+        width: 92%;
+        text-align: right;
+    }
+
