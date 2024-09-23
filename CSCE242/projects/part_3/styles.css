@@ -189,12 +189,14 @@
     #a_u_body {
         position: relative;
         left: 4%;
-
     }
 
     #portrait {
         margin-top: 10px;
-        
+        position: absolute;
+        display: inline-block;
+        right: 8%;
+        clear: right;
     }
 
     #portrait img {
@@ -202,12 +204,15 @@
     }
 
     #portrait p {
-        background-color: var(--color_tertiary);
         text-align: center;
         padding: 5px 0 5px 0;
         width: 300px;
         margin-top: -5px;
         border-radius: 0 0 5px 5px;
+    }
+
+    #name_tag {
+        background-color: var(--color_tertiary);
     }
 
     #desc {
@@ -224,12 +229,31 @@
         display: inline-block;
         padding: 5px;
         border-radius: 5px;
-        text-align: right;
+        text-align: center;
+        
     }
 
     .paralink p {
         background-color: var(--color_tertiary);
-        width: 92%;
-        text-align: right;
+        border-radius: 5px;
+        width: 36%;
+        padding: 2px;
+        text-align: left;
     }
 
+    #characters {
+        position: fixed;
+        display: inline-block;
+        bottom: 175px;
+        left: 46%;
+    }
+
+    #social_links a{
+        text-decoration: none;
+        color: var(--color_black);
+        display: inline-block;
+        margin-right: 4px;
+        padding: 5px;
+        background-color: var(--color_tertiary);
+        border-radius: 5px;
+    }
