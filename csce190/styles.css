@@ -1,22 +1,3 @@
-/*Styles testing*/
-
-/*
-    p{
-        text-align: center;
-        color: red;
-    }
-
-    #para1 {
-        text-align: center;
-        color:blueviolet;
-    }
-
-    .center {
-        text-align: center;
-        color: green;
-    }
-*/
-
 /*Variables*/
     :root {
         --color_primary: bisque;
